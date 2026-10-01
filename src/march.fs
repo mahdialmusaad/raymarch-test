@@ -67,6 +67,6 @@ void main()
 		dist += 0.005;
 	}
 
-	if (col == 0.0) discard;
+	if (col.a == 0.0) discard;
 	frag = vec4(col);
 }
